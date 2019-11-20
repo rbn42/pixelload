@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+
+    <entry name="unitWidth" type="Int">
+      <default>60</default>
+    </entry>
+    <entry name="interval" type="Double">
+      <default>2</default>
+    </entry>
+
+    <entry name="debugBackend" type="Bool">
+      <default>true</default>
+    </entry>
+
+  </group>
+
+  <group name="Colors">
+
+    <entry name="colorCpu0" type="Color">
+      <default>#00ffff</default>
+    </entry>
+    <entry name="colorCpu1" type="Color">
+      <default>#ff00ff</default>
+    </entry>
+    <entry name="colorCpu2" type="Color">
+      <default>#0000ff</default>
+    </entry>
+    <entry name="colorCpu3" type="Color">
+      <default>#00ff00</default>
+    </entry>
+    <entry name="colorCpu4" type="Color">
+      <default>#008080</default>
+    </entry>
+    <entry name="colorCpu5" type="Color">
+      <default>#0080ff</default>
+    </entry>
+
+    <entry name="colorMem0" type="Color">
+      <default>#80df00</default>
+    </entry>
+    <entry name="colorMem1" type="Color">
+      <default>#ff00ff</default>
+    </entry>
+
+    <entry name="colorNet0" type="Color">
+      <default>#f08000</default>
+    </entry>
+    <entry name="colorNet1" type="Color">
+      <default>#0080ff</default>
+    </entry>
+
+    <entry name="colorDisk0" type="Color">
+      <default>#808000</default>
+    </entry>
+    <entry name="colorDisk1" type="Color">
+      <default>#008080</default>
+    </entry>
+
+  </group>
+
+</kcfg>

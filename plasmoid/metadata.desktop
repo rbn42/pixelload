@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=pixelload
+Comment=A Simple Fork of Indicator Multiload
+Icon=ksysguard
+
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+X-KDE-PluginInfo-Author=rbn42
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=pixelload
+X-KDE-PluginInfo-Version=0.1.0
+X-KDE-PluginInfo-Website=github.com/rbn42/pixelload
+X-KDE-PluginInfo-Category=System Information
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL-3.0+
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-Plasma-Provides=pixelload
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
