@@ -37,7 +37,7 @@ git clone https://github.com/rbn42/pixelload.git
 cd pixelload
 # To install
 kpackagetool5 -t Plasma/Applet --install plasmoid
-# To upgrade. Backup your modified shaders before upgrading.
+# To upgrade.
 kpackagetool5 -t Plasma/Applet --upgrade plasmoid
 #+END_SRC
 
