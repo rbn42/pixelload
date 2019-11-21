@@ -22,7 +22,7 @@ def start(width):
         data = newdata
         hist.pop(0)
         result = np.asarray(hist)
-        yield result / (np.max(result) + 1)
+        yield result / (np.max(result[:, 0] + result[:, 1]) + 1)
 
 
 if __name__ == '__main__':
