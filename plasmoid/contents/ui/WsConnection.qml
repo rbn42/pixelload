@@ -14,7 +14,6 @@ Item{
         onClientConnected: {
             webSocket.onTextMessageReceived.connect(function(message) {
                 queue.push(message)
-                return
             });
         }
     }
@@ -26,6 +25,8 @@ Item{
         cmd+=' --unit-width='+cfg.unitWidth
         if(cfg.debugBackend)
             cmd+=' --debug'
+        if(cfg.debugBackend)
+            console.log('executing: '+cmd)
         return cmd
     }
 
