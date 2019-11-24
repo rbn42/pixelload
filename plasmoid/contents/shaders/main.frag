@@ -9,6 +9,8 @@ uniform vec4 color1;
 uniform vec4 color2;
 uniform vec4 color3;
 
+uniform vec4 colorBackground;
+
 out vec4 out_Color;
 in mediump vec2 qt_TexCoord0;
 
@@ -25,7 +27,7 @@ void drawGrid(int x,int y){
 }
 
 void main( ) {
-    out_Color.rgba=vec4(0,0,0,0.1);
+    out_Color.rgba=colorBackground; 
 
     int x=int(qt_TexCoord0.x*unitWidth);
     int y=int(qt_TexCoord0.y*unitHeight);

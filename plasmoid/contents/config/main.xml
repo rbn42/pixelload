@@ -48,6 +48,11 @@
       <default>#ff00ff</default>
     </entry>
 
+    <entry name="colorBackground" type="Color">
+      <default>#20000000</default>
+    </entry>
+
+
     <entry name="colorNet0" type="Color">
       <default>#f08000</default>
     </entry>

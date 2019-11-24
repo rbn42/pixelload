@@ -21,10 +21,11 @@ Row{
             property int numChannel:tex.height
             property variant tex
 
-            property variant color0:cfg.colorCpu0
-            property variant color1:cfg.colorCpu1
-            property variant color2:cfg.colorCpu2
-            property variant color3:cfg.colorCpu3
+            readonly property color color0:cfg.colorCpu0
+            readonly property color color1:cfg.colorCpu1
+            readonly property color color2:cfg.colorCpu2
+            readonly property color color3:cfg.colorCpu3
+            readonly property color colorBackground:cfg.colorBackground
 
             blending: true
             fragmentShader:shaderSource.shader_source
@@ -39,7 +40,8 @@ Row{
             property int numChannel:tex.height
             property variant tex
 
-            property variant color0:cfg.colorMem0
+            readonly property color color0:cfg.colorMem0
+            readonly property color colorBackground:cfg.colorBackground
 
             blending: true
             fragmentShader:shaderSource.shader_source
@@ -54,8 +56,9 @@ Row{
             property int numChannel:tex.height
             property variant tex
 
-            property variant color0:cfg.colorDisk0
-            property variant color1:cfg.colorDisk1
+            readonly property color color0:cfg.colorDisk0
+            readonly property color color1:cfg.colorDisk1
+            readonly property color colorBackground:cfg.colorBackground
 
             blending: true
             fragmentShader:shaderSource.shader_source
@@ -70,8 +73,9 @@ Row{
             property int numChannel:tex.height
             property variant tex
 
-            property variant color0:cfg.colorNet0
-            property variant color1:cfg.colorNet1
+            readonly property color color0:cfg.colorNet0
+            readonly property color color1:cfg.colorNet1
+            readonly property color colorBackground:cfg.colorBackground
 
             blending: true
             fragmentShader:shaderSource.shader_source
