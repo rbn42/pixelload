@@ -26,7 +26,7 @@ Item{
         if(cfg.debugBackend)
             cmd+=' --debug'
         if(cfg.debugBackend)
-            console.log('executing: '+cmd)
+            console.log('Executing: '+cmd)
         return cmd
     }
 
