@@ -8,10 +8,10 @@ Item{
     function push(message){
         var obj = JSON.parse(message)
 
-        imgsLoading.cpu.source=obj.cpu
-        imgsLoading.mem.source=obj.mem
-        imgsLoading.disk.source=obj.disk
-        imgsLoading.net.source=obj.net
+        imgsLoading.cpu.source = 'data:' + obj.cpu
+        imgsLoading.mem.source = 'data:' + obj.mem
+        imgsLoading.disk.source = 'data:' + obj.disk
+        imgsLoading.net.source = 'data:' + obj.net
 
     }
 

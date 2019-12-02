@@ -47,7 +47,7 @@ def numpy2str(data):
     image = Image.fromarray(img_data)
     data = io.BytesIO()
     image.save(data, "bmp")
-    message = 'data:img/bmp;base64,' + base64.b64encode(data.getvalue()).decode()
+    message = 'img/bmp;base64,' + base64.b64encode(data.getvalue()).decode()
     return message
 
 
