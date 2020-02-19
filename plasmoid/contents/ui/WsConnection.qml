@@ -33,5 +33,10 @@ Item{
     PlasmaCore.DataSource {
         engine: 'executable'
         connectedSources: [startBackEnd]
+        onNewData:{
+            // Show back-end errors.
+            console.log(data.stdout)
+            console.log(data.stderr)
+        }
     }
 }
