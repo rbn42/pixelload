@@ -7,7 +7,7 @@ Usage:
 
 Options:
   -h --help                     Show this screen.
-  --interval=I                  [default: 1]
+  --interval=I                  [default: 1000]
   --unit-width=W                [default: 100]
   --debug                       Debug
 """
@@ -55,7 +55,7 @@ async def hello():
     uri = f"ws://localhost:{server_port}"
     async with websockets.connect(uri) as websocket:
         while True:
-            time.sleep(cfg_interval)
+            time.sleep(cfg_interval / 1000)
 
             await websocket.send(json.dumps({
                 'cpu': numpy2str(next(loop_cpu)),

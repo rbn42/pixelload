@@ -11,7 +11,7 @@
       <default>60</default>
     </entry>
     <entry name="interval" type="Double">
-      <default>2</default>
+      <default>500</default>
     </entry>
 
     <entry name="debugBackend" type="Bool">

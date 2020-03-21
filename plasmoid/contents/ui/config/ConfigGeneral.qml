@@ -30,9 +30,9 @@ Kirigami.FormLayout {
 
         Kirigami.FormData.label: i18nc("@label:spinbox", "Interval:")
         editable:true
-        stepSize:1
+        stepSize:50
 
-        from: 1
-        to:100
+        from: 100
+        to:30000
     }
 }
