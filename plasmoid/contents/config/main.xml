@@ -23,16 +23,16 @@
   <group name="Colors">
 
     <entry name="colorCpu0" type="Color">
-      <default>#00ffff</default>
+      <default>#004cff</default>
     </entry>
     <entry name="colorCpu1" type="Color">
-      <default>#ff00ff</default>
+      <default>#5ce4ff</default>
     </entry>
     <entry name="colorCpu2" type="Color">
-      <default>#0000ff</default>
+      <default>#ffec58</default>
     </entry>
     <entry name="colorCpu3" type="Color">
-      <default>#00ff00</default>
+      <default>#ff0000</default>
     </entry>
 
     <entry name="colorMem0" type="Color">

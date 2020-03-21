@@ -1,16 +1,18 @@
 import psutil
 import numpy as np
 
+def cpu_times():
+    data = psutil.cpu_times_percent(percpu=False)
+    return [data.user + data.steal, data.nice, data.irq + data.softirq + data.system, data.iowait]
 
 def start(width):
-    data = psutil.cpu_percent(percpu=True)
-    num_cpu = len(data)
-    hist = [[0] * num_cpu] * width
+    num_elems = len(cpu_times())
+    hist = [[0] * num_elems] * width
     while True:
-        data = psutil.cpu_percent(percpu=True)
+        data = cpu_times()
         hist.append(data)
         hist.pop(0)
-        result = np.asarray(hist) / 100 / num_cpu
+        result = np.asarray(hist) / 100
         yield result
 
 
