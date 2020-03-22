@@ -11,7 +11,7 @@
       <default>60</default>
     </entry>
     <entry name="interval" type="Double">
-      <default>2</default>
+      <default>500</default>
     </entry>
 
     <entry name="debugBackend" type="Bool">
@@ -33,12 +33,6 @@
     </entry>
     <entry name="colorCpu3" type="Color">
       <default>#00ff00</default>
-    </entry>
-    <entry name="colorCpu4" type="Color">
-      <default>#008080</default>
-    </entry>
-    <entry name="colorCpu5" type="Color">
-      <default>#0080ff</default>
     </entry>
 
     <entry name="colorMem0" type="Color">
