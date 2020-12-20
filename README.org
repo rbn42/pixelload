@@ -1,4 +1,4 @@
-* This project is deprecated.
+* This project is deprecated. If you want find a resources monitor, please take a look at this plasmoid https://store.kde.org/p/998908/
 A Simple Fork of Indicator Multiload for KDE Plasma
 ** Requirements
 
